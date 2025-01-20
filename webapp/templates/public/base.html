@@ -1,0 +1,258 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Signs</title>
+    
+    {% comment %} <link rel="shortcut icon" type="image/x-icon" href="{% static 'assets/images/fav.png' %}"> {% endcomment %}
+    <!-- fontawesome 6.4.2 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+    <link rel="stylesheet" href="{% static 'assets/css/all.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'assets/css/templatemo-style.css' %}" />
+
+    <link rel="stylesheet" href="{% static 'assets/css/plugins/fontawesome-6.css' %}">
+    <!-- swiper Css 10.2.0 -->
+    <link rel="stylesheet" href="{% static 'assets/css/plugins/swiper.min.css' %}">
+    <!-- Bootstrap 5.0.2 -->
+    <link rel="stylesheet" href="{% static 'assets/css/vendor/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/vendor/bootstrap.min.css' %}">
+    <!-- metismenu scss -->
+    <link rel="stylesheet" href="{% static 'assets/css/vendor/metismenu.css' %}">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+
+</head>
+
+<body class="index-one">
+
+    <!-- header style one -->
+    <div class="rts-header-style-one header--sticky">
+        <!-- logo area start -->
+        <a href="index.html" class="" style="width:13%;margin-left:6%; ">
+            <img src="{% static 'assets/images/logo/01.svg' %}" alt="logo-">
+        </a>
+        <!-- logo area end -->
+        <div class="nav-area-center">
+            <nav class="navigation">
+                <ul class="parent-ul">
+                    <li class="has-dropdown with-megamenu">
+                        <a class="nav-link" href="{% url 'index-page' %}">Home</a>
+                    </li>
+                    <li class="has-dropdown">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="has-dropdown">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="has-dropdown">
+                        <a class="nav-link" href="{% url 'portfolio-page' %}">Portfolio</a>
+                    </li>
+                    <li class="has-dropdown">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li><a href="{% url 'contact-page' %}">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+
+
+        <div class="action-area">
+            <div class="menu-icon" id="menu-btn">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="contact-item">
+                        <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 1.34375C0 0.886719 0.351562 0.5 0.84375 0.5H14.9062C15.3633 0.5 15.75 0.886719 15.75 1.34375C15.75 1.83594 15.3633 2.1875 14.9062 2.1875H0.84375C0.351562 2.1875 0 1.83594 0 1.34375ZM0 6.96875C0 6.51172 0.351562 6.125 0.84375 6.125H10.4062C10.8633 6.125 11.25 6.51172 11.25 6.96875C11.25 7.46094 10.8633 7.8125 10.4062 7.8125H0.84375C0.351562 7.8125 0 7.46094 0 6.96875ZM5.90625 13.4375H0.84375C0.351562 13.4375 0 13.0859 0 12.5938C0 12.1367 0.351562 11.75 0.84375 11.75H5.90625C6.36328 11.75 6.75 12.1367 6.75 12.5938C6.75 13.0859 6.36328 13.4375 5.90625 13.4375Z" fill="#30373E" />
+                        </svg>
+                    </div>
+                </div>
+                    <!-- header style two -->
+    <div id="side-bar" class="side-bar header-two">
+        <button class="close-icon-menu"><i class="far fa-times"></i></button>
+        <!-- inner menu area desktop start -->
+        <div class="inner-main-wrapper-desk">
+            <div class="thumbnail">
+                <img src="{% static 'assets/images/logo/01.svg' %}" alt="Innovate">
+            </div>
+            <div class="inner-content">
+                <p class="disc">
+                    Innovate Architects is a full-service design firm providing architecture architecture.
+                </p>
+                <div class="contact-information--sidebar">
+                    <h6 class="title">Contact Info</h6>
+                    <div class="single-info">
+                        <a href="#">+123 456 789 33</a>
+                    </div>
+                    <div class="single-info">
+                        <a href="#">3 innovate Street, NY United <br> States of America</a>
+                    </div>
+                    <div class="single-info">
+                        <a href="#">futuresigns@gmail.com</a>
+                    </div>
+                    <h6 class="title mt--30">Office Address</h6>
+                    <div class="single-info">
+                        <a href="#">+Time Square, New York <br> USA, 3454</a>
+                    </div>
+                    <div class="rts-social-style-one">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer">
+                    <h4 class="title">Got a project in mind?</h4>
+                    <a href="{% url 'contact-page' %}" class="rts-btn btn-primary">Let's talk</a>
+                </div>
+            </div>
+        </div>
+        <!-- mobile menu area start -->
+        <div class="mobile-menu-main">
+            <nav class="nav-main mainmenu-nav mt--30">
+                <ul class="mainmenu metismenu" id="mobile-menu-active">
+                    <li class="has-droupdown">
+                        <a href="#" class="main">Home</a>
+                    </li>
+                    <li class="has-droupdown">
+                        <a href="#" class="main">Services</a>
+                    </li>
+                    <li class="has-droupdown">
+                        <a href="#" class="main">Portfolio</a>
+                    </li>
+                    <li class="has-droupdown">
+                        <a href="#" class="main">Blog</a>
+                    </li>
+                    <li class="has-droupdown">
+                        <a href="#" class="main">Pages</a>
+                        <ul class="submenu mm-collapse">
+                            <li><a class="mobile-menu-link" href="about.html">About</a></li>
+                            <li class="has-droupdown third-lvl">
+                                <a class="main" href="#">Team</a>
+                            </li>
+                            <li><a class="mobile-menu-link" href="before-after.html">Before After</a></li>
+                            <li><a class="mobile-menu-link" href="pricing-plane.html">Pricing Plan</a></li>
+                            <li><a class="mobile-menu-link" href="faq.html">Faq's</a></li>
+                            <li><a class="mobile-menu-link" href="terms-and-condition.html">Terms & Conditions</a></li>
+                            <li><a class="mobile-menu-link" href="privacy-policy.html">Privacy Policy</a></li>
+                            <li><a class="mobile-menu-link" href="404.html">404 Page</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="{% url 'contact-page' %}" class="main">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="rts-social-style-one pl--20 mt--100">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- mobile menu area end -->
+    </div>
+    <!-- header style two End -->
+
+
+    <div class="grid-line">
+        <div class="grid-lines">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- header style one end -->
+
+    
+    {% block content %}
+    {% endblock %}
+    <!-- scripts -->
+        <script src="{% static 'assets/js/vendor/jquery.min.js' %}"></script>
+        <script src="{% static 'assets/js/vendor/waw.js' %}"></script>
+    
+        <!-- gsap plugins -->
+        <script src="{% static 'assets/js/vendor/gsap.js' %}"></script>
+        <script src="{% static 'assets/js/vendor/metismenu.js' %}"></script>
+        <script src="{% static 'assets/js/plugins/scrolltiger.js' %}"></script>
+        <script src="{% static 'assets/js/plugins/scrolltoplugin.js' %}"></script>
+        <!-- <script src="{% static 'assets/js/plugins/smoothscroll.js' %}"></script> -->
+        <script src="{% static 'assets/js/plugins/splittext.js' %}"></script>
+        <!-- gsap plugins end-->
+    
+        <script src="{% static 'assets/js/vendor/magnifying-popup.js' %}"></script>
+    
+        <!-- swiper JS 10.2.0 -->
+        <script src="{% static 'assets/js/plugins/swiper.js' %}"></script>
+        <script src="{% static 'assets/js/plugins/counterup.js' %}"></script>
+        <script src="{% static 'assets/js/vendor/waypoint.js' %}"></script>
+        <script src="{% static 'assets/js/vendor/chroma.min.js' %}"></script>
+        <!-- bootstrap 5.0.2 -->
+        <script src="{% static 'assets/js/plugins/bootstrap.min.js' %}"></script>
+        <!-- dymanic Contact Form -->
+        <script src="{% static 'assets/js/plugins/contact.form.js' %}"></script>
+    
+        <!-- main Js -->
+        <script src="{% static 'assets/js/main.js' %}"></script>
+        
+    <script src="{% static 'assets/js/jquery.min.js' %}"></script>
+    <script src="{% static 'assets/js/parallax.min.js' %}"></script>
+    
+</body>
+</html>

@@ -1,0 +1,517 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content%}
+<head>
+ 
+  <title>portfolio</title>
+</head>
+
+    <!-- Welcome Section -->
+    <section id="tmWelcome" class="parallax-window" data-parallax="scroll" data-image-src="{% static 'assets/images/portfolio/mini-profile-bg-01.jpg' %}">
+      <div class="container-fluid tm-brand-container-outer">
+        <div class="row">
+          <div class="col-12">
+            <!-- Logo Area -->
+            <!-- Black transparent bg -->
+            <div class="ml-auto mr-0 tm-bg-black-transparent text-white tm-brand-container-inner">
+              <div class="tm-brand-container text-center">
+                {% comment %} <h1 class="tm-brand-name">Future Signs</h1> {% endcomment %}
+                <h1 class="tm-brand-name"><img src="{% static 'assets/images/logo/01.svg' %}" alt="logo-">
+                </h1>
+
+                <p class="tm-brand-description mb-0">Creativity, Strategy, and Innovation</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tm-bg-white-transparent tm-welcome-container">
+        <div class="container-fluid">
+          <div class="row h-100">
+            <!-- Welcome Text -->
+            <!-- White transparent bg -->
+            <div class="col-md-7 tm-welcome-left-col">
+              <div class="tm-welcome-left">
+                <h2 class="tm-welcome-title">Welcome to Future Signs </h2>
+                <p class="pb-0">
+                Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+                Praesent mauris. Fusce nec tellus sed augue semper porta.consectetur adipiscing elit.
+                Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
+                </p>
+              </div>
+            </div>
+            <!-- Brown bg -->
+            <div class="col-md-5">
+              <div class="tm-welcome-right">
+                <i class="fas fa-4x fa-address-card p-3 tm-welcome-icon"></i>
+                <p class="mb-0" style="color: beige;">
+                    consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Welcome section -->
+
+     <!-- Portfolio section -->
+     <section id="tmPortfolio">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="feature-box">
+                            <h1>Duis sagittis ipsum</h1>
+                            <p>Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                        </div>
+                    </div><!-- End col-md-6 -->
+                    <div class="col-md-6 col-sm-6 nopadding">
+                        <img src="{% static 'assets/images/portfolio/1.png' %}">
+                    </div><!-- End col-md-6 -->
+        
+                    <div class="clearfix"></div><!-- End clearfix -->
+        
+                    <div class="col-md-6 col-sm-6 nopadding">
+                        <img src="{% static 'assets/images/portfolio/p-2.png' %}">
+                    </div><!-- End col-md-6 -->
+                    <div class="col-md-6 col-sm-6" style="margin-top: 5%;">
+                        <div class="feature-box">
+                            <h1>Lorem Ipsum</h1>
+                            <p>Lorem Ipsum is Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 	the industry's standard dummy text ever since the 1500s,</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6" style="margin-top: 5%;">
+                        <div class="feature-box">
+                            <h1>Proin ut ligula vel</h1>
+                            <p>Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh.</p>
+                        </div>
+                    </div><!-- End col-md-6 -->
+                    <div class="col-md-6 col-sm-6 nopadding">
+                        <img src="{% static 'assets/images/portfolio/p-3.png' %}">
+                    </div><!-- End col-md-6 -->
+        
+                    <div class="clearfix"></div><!-- End clearfix -->
+        
+                    <div class="col-md-6 col-sm-6 nopadding">
+                        <img src="{% static 'assets/images/portfolio/p-4.png' %}">
+                    </div><!-- End col-md-6 -->
+                    <div class="col-md-6 col-sm-6" style="margin-top: 5%;">
+                        <div class="feature-box">
+                            <h1>Quisque volutpat</h1>
+                            <p>Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis.</p>
+                        </div>
+                    </div>
+                    <!-- End col-md-6 -->
+                </div>
+            </div>
+        
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End portfolio section -->
+    <div id="tmContact" class="parallax-window" data-parallax="scroll" data-image-src="{% static 'assets/images/portfolio/mini-profile-bg-02.jpg' %}">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="tm-contact-items-container">
+              <div class="tm-contact-item">
+                <i class="fas fa-5x fa-briefcase tm-contact-item-icon"></i>
+                <p class="mb-0">
+                  Quisque venenatis viverra ultrices. Lorem ipsum dolor sit
+                  amet. Nullam sit amet tempor nisl.
+                </p>
+              </div>
+              <div class="tm-contact-item">
+                <i class="fas fa-5x fa-building tm-contact-item-icon"></i>
+                <p class="mb-0">
+                    Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa.</p>
+              </div>
+
+              <div class="tm-contact-item">
+                <i class="fas fa-5x fa-balance-scale tm-contact-item-icon"></i>
+                <p class="mb-0">
+                    Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <form
+              action="index.html"
+              method="POST"
+              id="tmContactForm"
+              class="tm-bg-white-transparent"
+            >
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="contact_name"
+                  name="contact_name"
+                  class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
+                  placeholder="Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="contact_email"
+                  name="contact_email"
+                  class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  rows="4"
+                  id="contact_message"
+                  name="contact_message"
+                  class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
+                  placeholder="Message"
+                  required
+                ></textarea>
+              </div>
+              <div class="text-center">
+                <button
+                  type="submit"
+                  class="btn tm-btn-submit rounded-0 text-white"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- container -->
+    </div>
+
+
+    <!-- footer area start -->
+    <div class="rts-footer-area bg-footer-image bg_image">
+        <div class="container">
+            <div class="row   ptb--100 ptb_sm--60">
+                <div class="col-lg-12">
+                    <div class="footer-area-wrapper-one">
+                        <div class="single-footer-wized">
+                            <a href="#" class="logo">
+                                <img src="{% static 'assets/images/logo/02.svg' %}" style="width:80%" alt="logo">
+                            </a>
+                            <p class="disc">
+                                we are passionate about creating exceptional
+                                interior spaces that inspire, delight, and enhance the lives of our clients.
+                            </p>
+                            <form action="#">
+                                <div class="input-email">
+                                    <input type="text" placeholder="Enter your email address" required>
+                                    <button><i class="fa-thin fa-arrow-right"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="single-footer-wized">
+                            <div class="menu-links-area">
+                                <h6 class="title">Company</h6>
+                                <ul>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="team-1.html">Our team</a></li>
+                                    <li><a href="service-1.html">Our Services</a></li>
+                                    <li><a href="portfolio-grid-1.html">Work Project</a></li>
+                                    <li><a href="faq.html">Help</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="single-footer-wized">
+                            <div class="menu-links-area">
+                                <h6 class="title">Useful Links</h6>
+                                <ul>
+                                    <li><a href="about.html">Why Choose</a></li>
+                                    <li><a href="blog-details.html">Read Blog</a></li>
+                                    <li><a href="portfolio-grid-col-4.html">Work Process</a></li>
+                                    <li><a href="faq.html">FAQ’s</a></li>
+                                    <li><a href="{% url 'contact-page' %}">Support</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="single-footer-wized">
+                            <div class="menu-links-area">
+                                <h6 class="title">Contact</h6>
+                                <div class="contact-information-1">
+                                    <!-- single  contact info -->
+                                    <div class="single-contact-info">
+                                        <div class="icon">
+                                            <i class="fa-regular fa-phone-volume"></i>
+                                        </div>
+                                        <div class="information">
+                                            <a href="Tel:1234567890">+23 5825-32535</a>
+                                            <span class="support">Call us for support</span>
+                                        </div>
+                                    </div>
+                                    <!-- single  contact info end -->
+                                    <!-- single  contact info -->
+                                    <div class="single-contact-info">
+                                        <div class="icon">
+                                            <i class="fa-regular fa-envelope"></i>
+                                        </div>
+                                        <div class="information">
+                                            <a href="mailto:example@example.com">futuresigns@gmail.com</a>
+                                            <span class="support">Email us for query</span>
+                                        </div>
+                                    </div>
+                                    <!-- single  contact info end -->
+                                    <!-- single  contact info -->
+                                    <div class="single-contact-info">
+                                        <div class="icon">
+                                            <i class="fa-regular fa-map-location-dot"></i>
+                                        </div>
+                                        <div class="information">
+                                            <a href="https://www.google.com/maps" target="_blank">1058 Helton Ave, Stky</a>
+                                            <span class="support">Berlin, Germany</span>
+                                        </div>
+                                    </div>
+                                    <!-- single  contact info end -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-style-one">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copyright-area-main-wrapper-one">
+                            <p class="left">&copy; 2025 Future Signs. All rights reserved.</p>
+                            <ul>
+                                <li>
+                                    <a href="terms-and-condition.html">Terms & conditions</a>
+                                </li>
+                                <li>
+                                    <a href="privacy-policy.html">Privacy policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer area end -->
+
+
+    <!-- search area start -->
+    <div class="search-input-area">
+        <div class="container">
+            <div class="search-input-inner">
+                <div class="input-div">
+                    <input id="searchInput1" class="search-input" type="text" placeholder="Search by keyword or #">
+                    <button><i class="far fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+        <div id="close" class="search-close-icon"><i class="far fa-times"></i></div>
+    </div>
+    <!-- search area end -->
+
+
+    <!-- back to top start -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+        </svg>
+    </div>
+    <!-- back to top end -->
+
+
+
+    <!-- header style two -->
+    <div id="side-bar" class="side-bar header-two">
+        <button class="close-icon-menu"><i class="far fa-times"></i></button>
+        <!-- inner menu area desktop start -->
+        <div class="inner-main-wrapper-desk">
+            <div class="thumbnail">
+                <img src="{% static 'assets/images/logo/01.svg' %}" alt="Innovate">
+            </div>
+            <div class="inner-content">
+                <p class="disc">
+                    Innovate Architects is a full-service design firm providing architecture architecture.
+                </p>
+                <div class="contact-information--sidebar">
+                    <h6 class="title">Contact Info</h6>
+                    <div class="single-info">
+                        <a href="#">+123 456 789 33</a>
+                    </div>
+                    <div class="single-info">
+                        <a href="#">3 innovate Street, NY United <br> States of America</a>
+                    </div>
+                    <div class="single-info">
+                        <a href="#">futuresigns@gmail.com</a>
+                    </div>
+                    <h6 class="title mt--30">Office Address</h6>
+                    <div class="single-info">
+                        <a href="#">+Time Square, New York <br> USA, 3454</a>
+                    </div>
+                    <div class="rts-social-style-one">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer">
+                    <h4 class="title">Got a project in mind?</h4>
+                    <a href="{% url 'contact-page' %}" class="rts-btn btn-primary">Let's talk</a>
+                </div>
+            </div>
+        </div>
+        <!-- mobile menu area start -->
+        <div class="mobile-menu-main">
+            <nav class="nav-main mainmenu-nav mt--30">
+                <ul class="mainmenu metismenu" id="mobile-menu-active">
+                    <li class="has-droupdown">
+                        <a href="#" class="main">Home</a>
+                        <ul class="submenu mm-collapse">
+                            <li class="has-droupdown third-lvl">
+                                <a class="main" href="#">Multipages</a>
+                            </li>
+                            <li class="has-droupdown third-lvl">
+                                <a class="main" href="#">Onepages</a>
+                            </li>
+                            <li class="has-droupdown third-lvl">
+                                <a class="main" href="#">Showcase Pages</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-droupdown">
+                        <a href="#" class="main">Services</a>
+                    </li>
+                    <li class="has-droupdown">
+                        <a href="#" class="main">Portfolio</a>
+                    </li>
+                    <li class="has-droupdown">
+                        <a href="#" class="main">Blog</a>
+                    </li>
+                    <li class="has-droupdown">
+                        <a href="#" class="main">Pages</a>
+                        <ul class="submenu mm-collapse">
+                            <li><a class="mobile-menu-link" href="about.html">About</a></li>
+                            <li class="has-droupdown third-lvl">
+                                <a class="main" href="#">Team</a>
+                            </li>
+                            <li><a class="mobile-menu-link" href="before-after.html">Before After</a></li>
+                            <li><a class="mobile-menu-link" href="pricing-plane.html">Pricing Plan</a></li>
+                            <li><a class="mobile-menu-link" href="faq.html">Faq's</a></li>
+                            <li><a class="mobile-menu-link" href="terms-and-condition.html">Terms & Conditions</a></li>
+                            <li><a class="mobile-menu-link" href="privacy-policy.html">Privacy Policy</a></li>
+                            <li><a class="mobile-menu-link" href="404.html">404 Page</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="{% url 'contact-page' %}" class="main">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="rts-social-style-one pl--20 mt--100">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- mobile menu area end -->
+    </div>
+    <!-- header style two End -->
+
+
+    <div class="grid-line">
+        <div class="grid-lines">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+
+    <div id="anywhere-home">
+    </div>
+    <script>
+      function detectMsBrowser() {
+        using_ms_browser =
+          navigator.appName == "Microsoft Internet Explorer" ||
+          (navigator.appName == "Netscape" &&
+            navigator.appVersion.indexOf("Edge") > -1) ||
+          (navigator.appName == "Netscape" &&
+            navigator.appVersion.indexOf("Trident") > -1);
+
+        if (using_ms_browser == true) {
+          alert(
+            "Please use Chrome or Firefox for the best browsing experience!"
+          );
+        }
+      }
+      function setBrandMarginTop() {
+        var bottomContainerHeight = $(".tm-welcome-container").height();
+
+        $(".tm-brand-container-outer").css({
+          "margin-top": -bottomContainerHeight + "px"
+        });
+      }
+
+      $(function() {
+        setBrandMarginTop();
+        detectMsBrowser();
+
+        // Handle window resize event
+        $(window).resize(function() {
+          setBrandMarginTop();
+        });
+      });
+    </script>
+
+</body>
+{% endblock %}

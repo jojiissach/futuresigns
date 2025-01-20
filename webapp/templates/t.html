@@ -1,0 +1,351 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block content %}
+
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+  <link rel="stylesheet" href="{% static 'assets/css/all.min.css' %}" />
+  <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}" />
+  <link rel="stylesheet" href="{% static 'assets/css/templatemo-style.css' %}" />
+  <title>portfolio</title>
+</head>
+
+  <body>
+    <!-- Welcome Section -->
+    <section id="tmWelcome" class="parallax-window" data-parallax="scroll" data-image-src="{% static 'assets/images/portfolio/mini-profile-bg-01.jpg' %}">
+      <div class="container-fluid tm-brand-container-outer">
+        <div class="row">
+          <div class="col-12">
+            <!-- Logo Area -->
+            <!-- Black transparent bg -->
+            <div class="ml-auto mr-0 tm-bg-black-transparent text-white tm-brand-container-inner">
+              <div class="tm-brand-container text-center">
+                {% comment %} <h1 class="tm-brand-name">Future Signs</h1> {% endcomment %}
+                <h1 class="tm-brand-name"><img src="{% static 'assets/images/logo/01.svg' %}" alt="logo-">
+                </h1>
+
+                <p class="tm-brand-description mb-0">Creativity, Strategy, and Innovation</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tm-bg-white-transparent tm-welcome-container">
+        <div class="container-fluid">
+          <div class="row h-100">
+            <!-- Welcome Text -->
+            <!-- White transparent bg -->
+            <div class="col-md-7 tm-welcome-left-col">
+              <div class="tm-welcome-left">
+                <h2 class="tm-welcome-title">Welcome to Future Signs </h2>
+                <p class="pb-0">
+                Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+                Praesent mauris. Fusce nec tellus sed augue semper porta.consectetur adipiscing elit.
+                Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
+                </p>
+              </div>
+            </div>
+            <!-- Brown bg -->
+            <div class="col-md-5">
+              <div class="tm-welcome-right">
+                <i class="fas fa-4x fa-address-card p-3 tm-welcome-icon"></i>
+                <p class="mb-0" style="color: beige;">
+                    consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Welcome section -->
+
+    <!-- Portfolio section -->
+    <section id="tmPortfolio">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="feature-box">
+                            <h1>Duis sagittis ipsum</h1>
+                            <p>Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                        </div>
+                    </div><!-- End col-md-6 -->
+                    <div class="col-md-6 col-sm-6 nopadding">
+                        <img src="{% static 'assets/images/portfolio/1.png' %}">
+                    </div><!-- End col-md-6 -->
+        
+                    <div class="clearfix"></div><!-- End clearfix -->
+        
+                    <div class="col-md-6 col-sm-6 nopadding">
+                        <img src="{% static 'assets/images/portfolio/p-2.png' %}">
+                    </div><!-- End col-md-6 -->
+                    <div class="col-md-6 col-sm-6" style="margin-top: 5%;">
+                        <div class="feature-box">
+                            <h1>Lorem Ipsum</h1>
+                            <p>Lorem Ipsum is Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 	the industry's standard dummy text ever since the 1500s,</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6" style="margin-top: 5%;">
+                        <div class="feature-box">
+                            <h1>Proin ut ligula vel</h1>
+                            <p>Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh.</p>
+                        </div>
+                    </div><!-- End col-md-6 -->
+                    <div class="col-md-6 col-sm-6 nopadding">
+                        <img src="{% static 'assets/images/portfolio/p-3.png' %}">
+                    </div><!-- End col-md-6 -->
+        
+                    <div class="clearfix"></div><!-- End clearfix -->
+        
+                    <div class="col-md-6 col-sm-6 nopadding">
+                        <img src="{% static 'assets/images/portfolio/p-4.png' %}">
+                    </div><!-- End col-md-6 -->
+                    <div class="col-md-6 col-sm-6" style="margin-top: 5%;">
+                        <div class="feature-box">
+                            <h1>Quisque volutpat</h1>
+                            <p>Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis.</p>
+                        </div>
+                    </div>
+                    <!-- End col-md-6 -->
+                </div>
+            </div>
+        
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End portfolio section -->
+
+    <!-- Contact section -->
+    <div id="tmContact" class="parallax-window" data-parallax="scroll" data-image-src="{% static 'assets/images/portfolio/mini-profile-bg-02.jpg' %}">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="tm-contact-items-container">
+              <div class="tm-contact-item">
+                <i class="fas fa-5x fa-briefcase tm-contact-item-icon"></i>
+                <p class="mb-0">
+                  Quisque venenatis viverra ultrices. Lorem ipsum dolor sit
+                  amet. Nullam sit amet tempor nisl.
+                </p>
+              </div>
+              <div class="tm-contact-item">
+                <i class="fas fa-5x fa-building tm-contact-item-icon"></i>
+                <p class="mb-0">
+                    Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa.</p>
+              </div>
+
+              <div class="tm-contact-item">
+                <i class="fas fa-5x fa-balance-scale tm-contact-item-icon"></i>
+                <p class="mb-0">
+                    Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <form
+              action="index.html"
+              method="POST"
+              id="tmContactForm"
+              class="tm-bg-white-transparent"
+            >
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="contact_name"
+                  name="contact_name"
+                  class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
+                  placeholder="Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="contact_email"
+                  name="contact_email"
+                  class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  rows="4"
+                  id="contact_message"
+                  name="contact_message"
+                  class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
+                  placeholder="Message"
+                  required
+                ></textarea>
+              </div>
+              <div class="text-center">
+                <button
+                  type="submit"
+                  class="btn tm-btn-submit rounded-0 text-white"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- row -->
+        {% comment %} <div class="row">
+          <footer class="col-12">
+            <div class="rts-footer-area social-jumpanimation @@border">
+                <div class="container  ptb--100 pt_md--60 pb_md--60 pt_sm--40 pb_sm--40">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <!-- footer-two wrapper -->
+                            <div class="footer-two-main-wrapper">
+                                <a href="#" class="logo">
+                                    <img src="{% static 'assets/images/logo/01.svg'%}"  style="width:70%" alt="logo">
+                                </a>
+                                <!-- social style two -->
+                                <ul class="social-style-two-wrapper social-anim">
+                                    <li><a class="counter__anim" href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a class="counter__anim" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a class="counter__anim" href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                    <li><a class="counter__anim" href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                </ul>
+                                <!-- social style two end -->
+                            </div>
+                            <!-- footer-two wrapper end -->
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="footer-two-main-wrapper-right">
+                                <!-- single footer two wozed -->
+                                <div class="single-footer-wized">
+                                    <div class="location-information">
+                                        <div class="location">
+                                            <p>1058 Helton Ave, Stky <br>
+                                                Berlin, Germany</p>
+                                        </div>
+                                        <div class="contact-call">
+                                            <a href="Tel:123-456-7890">+23 5825-32535</a>
+                                            <span>Call us for support</span>
+                                        </div>
+                                        <div class="contact-call">
+                                            <a href="mailto:webmaster@example.com">futuresigns@gmail.com</a>
+                                            <span>Email us for query</span>
+                                        </div>
+                                    </div>
+        
+                                </div>
+                                <!-- single footer two wozed -->
+                                <!-- single footer two wozed -->
+                                <div class="single-footer-wized">
+                                    <div class="location-information">
+                                        <div class="location">
+                                            <h6 class="title" style="font-size: 2rem;">Useful Links</h6>
+                                        </div>
+                                        <ul>
+                                            <li><a href="about.html">Why Choose</a></li>
+                                            <li><a href="blog.html">Read Blog</a></li>
+                                            <li><a href="portfolio-grid-1.html">Work Process</a></li>
+                                            <li><a href="faq.html">FAQ’s</a></li>
+                                            <li><a href="contact.html">Support</a></li>
+                                        </ul>
+                                    </div>
+        
+                                </div>
+                                <!-- single footer two wozed -->
+                                <!-- single footer two wozed -->
+                                <div class="single-footer-wized">
+                                    <div class="location-information">
+                                        <div class="location">
+                                            <h6 class="title" style="font-size: 2rem;">News Letter</h6>
+                                            <p class="disc-f">
+                                                Subscribe to our newsletter & get all
+                                                the latest news.
+                                            </p>
+                                        </div>
+                                        <form action="#">
+                                            <div class="input-email">
+                                                <input type="text" placeholder="Enter your email address" required>
+                                                <button><i class="fa-thin fa-arrow-right"></i></button>
+                                            </div>
+                                        </form>
+        
+                                    </div>
+        
+                                </div>
+                                <!-- single footer two wozed -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rts-copyright-area-two">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="copy-right-area-inner-two">
+                                    <p class="disc">Copyright 2023. All Rights Reserved.</p>
+                                    <div class="right">
+                                        <ul>
+                                            <li><a href="terms-and-condition.html">Terms & conditions</a></li>
+                                            <li><a href="privacy-policy.html">Privacy policy</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </footer>
+        </div> {% endcomment %}
+      </div>
+      <!-- container -->
+    </div>
+    <!-- section -->
+    <script src="{% static 'assets/js/jquery.min.js' %}"></script>
+    <script src="{% static 'assets/js/parallax.min.js' %}"></script>
+    
+    <script>
+      function detectMsBrowser() {
+        using_ms_browser =
+          navigator.appName == "Microsoft Internet Explorer" ||
+          (navigator.appName == "Netscape" &&
+            navigator.appVersion.indexOf("Edge") > -1) ||
+          (navigator.appName == "Netscape" &&
+            navigator.appVersion.indexOf("Trident") > -1);
+
+        if (using_ms_browser == true) {
+          alert(
+            "Please use Chrome or Firefox for the best browsing experience!"
+          );
+        }
+      }
+      function setBrandMarginTop() {
+        var bottomContainerHeight = $(".tm-welcome-container").height();
+
+        $(".tm-brand-container-outer").css({
+          "margin-top": -bottomContainerHeight + "px"
+        });
+      }
+
+      $(function() {
+        setBrandMarginTop();
+        detectMsBrowser();
+
+        // Handle window resize event
+        $(window).resize(function() {
+          setBrandMarginTop();
+        });
+      });
+    </script>
+  </body>
+</html>
+
+
+
+{% endblock%}
