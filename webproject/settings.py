@@ -49,10 +49,11 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware'
 ]
 
 ROOT_URLCONF = 'webproject.urls'
-
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -119,9 +120,14 @@ USE_TZ = True
 
 # STATIC_URL = 'static/'
 
-STATIC_URL = '/static/'
-STATIC_DIR = [os.path.join(BASE_DIR, 'webapp/static')]
-STATICFILES_DIRS = [BASE_DIR / 'static']
+STATIC_URL = 'static/'
+# STATICFILES_DIRES = [
+#     os.path.join(BASE_DIR, 'static')
+# ]
+STATIC_ROOT = BASE_DIR / "static"
+
+MEDIA_ROOT = BASE_DIR/ 'uploads'
+MEDIA_URL = '/media/'
 
 
 # Default primary key field type
